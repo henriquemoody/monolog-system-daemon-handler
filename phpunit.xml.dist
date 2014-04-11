@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="Monolog System_Daemon handler test suite">
+            <directory>tests/Monolog/Handler/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/Monolog/Handler/</directory>
+        </whitelist>
+    </filter>
+</phpunit>

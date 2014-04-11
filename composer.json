@@ -1,0 +1,28 @@
+{
+    "name": "monolog/system-daemon-handler",
+    "description": "Sends your logs to System_Daemon",
+    "keywords": ["log", "logging", "system_daemon"],
+    "homepage": "http://github.com/henriquemoody/monolog-system-daemon-handler",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique Moody",
+            "email": "henriquemoody@gmail.com",
+            "homepage": "http://about.me/henriquemoody"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "pear/system_daemon": "dev-master",
+        "monolog/monolog": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/Monolog"
+        }
+    }
+}
